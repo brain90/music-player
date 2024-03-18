@@ -213,7 +213,7 @@ const playMusic = function () {
   }
 }
 
-playBtn.addEventListener("click", playMusic);
+//playBtn.addEventListener("click", playMusic);
 
 
 /** update running time while playing music */
@@ -300,7 +300,7 @@ const skipNext = function () {
   changePlaylistItem();
 }
 
-playerSkipNextBtn.addEventListener("click", skipNext);
+//playerSkipNextBtn.addEventListener("click", skipNext);
 
 
 
@@ -323,7 +323,7 @@ const skipPrev = function () {
   changePlaylistItem();
 }
 
-playerSkipPrevBtn.addEventListener("click", skipPrev);
+//playerSkipPrevBtn.addEventListener("click", skipPrev);
 
 
 
